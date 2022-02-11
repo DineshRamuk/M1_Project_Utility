@@ -9,7 +9,7 @@
 
 
 
-void show1(int choice,char name[10],int id1,int price);
+void show1(char name[10],int id1,int price);
 
 void show2(int choice,char name[10],int id1,int price);
 
