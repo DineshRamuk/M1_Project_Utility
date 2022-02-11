@@ -6,13 +6,13 @@ int changepriceticket(int price)
 	scanf("%s",&pass);
 	if (strcmp(pass,pak)==0)
 	{
-		printf("Please enter new price: ");
+		printf("Enter new price: ");
 		scanf("%d",&price);
-		printf("Price Updated Successfully: ");
+		printf("Price Updated");
 		system("PAUSE");
 		system("CLS");
 	}
 	else
-		printf("The entered password is wrong! ");
+		printf("Entered password is incorrect! ");
 	return price;
 }
