@@ -13,10 +13,7 @@ void show1(int choice,char name[10],int id1,int price)
         printf("\t Booking ID : %d \t\t\tShow Name : KGF 2-7\n",id1);
         printf("\t Customer  : %s\n",name);
         printf("\t\t\t                              Date      : 012-12-2022\n");
-        printf("\t                                              Time      : 07:00pm\n");
-        printf("\t                                              Hall      : 02\n");
-        printf("\t                                              seats No. : %d  \n",choice);
-        printf("\t                                              price . : %d  \n\n",price);
+        
 		person[count].id=id1;
         printf("\tThankYou For Booking a Ticket\n");
         return;
